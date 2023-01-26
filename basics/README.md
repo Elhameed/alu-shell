@@ -26,7 +26,7 @@ In this project, I learnt about the shell, how to navigate through, how to use d
 
 **Task-10**: The [10-back](./10-back) file contains script that changes the working directory to the previous one.
 
-**Task-11**: The [11-lists](./11-lists) file contains a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format
+**Task-11**: The [11-lists](./11-lists) file contains a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
 
 **Task-12**: The [12-file_type](./12-file_type) contains a script that prints the type of the file named `iamafile`. The file `iamafile` will be in the `/tmp` directory when the script is run.
 
