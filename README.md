@@ -1,4 +1,4 @@
-![img](https://ciradu2204.github.io/ALUWebsite/img/alu_logo_original.png)
+![img](https://start.alueducation.com/resource/1568810909000/AluLogoForAdmissions)
 
 # ALU Shell
 
