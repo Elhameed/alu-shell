@@ -1,4 +1,4 @@
-![img]([https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.salesforce.org%2Fstories%2Falu%2F&psig=AOvVaw1t-JA16QrFS1lGCCFC9WXC&ust=1674839333989000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNis6vbc5fwCFQAAAAAdAAAAABAH](https://ciradu2204.github.io/ALUWebsite/img/alu_logo_original.png))
+![img](https://ciradu2204.github.io/ALUWebsite/img/alu_logo_original.png)
 
 # ALU Shell
 
