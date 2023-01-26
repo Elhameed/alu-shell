@@ -6,7 +6,7 @@ In this project, I learnt about the shell, how to navigate through, how to use d
 
 **Task-0**:The [0-current_working_directory](./0-current_working_directory) file contains script that prints the absolute path name of the current working directory.`pwd`
 
-**Task-1**:The [1-listi](./1-listi) file contains the script that displays the content list of the working directory.`ls`
+**Task-1**:The [1-listit](./1-listit) file contains the script that displays the content list of the working directory.`ls`
 
 **Task-2**:The [2-bring_me_home](./2-bring_me_home) file contains a script that changes the working directory to the user’s home directory.`cd -`
 
@@ -40,10 +40,3 @@ In this project, I learnt about the shell, how to navigate through, how to use d
 
 **Task-17**:The [102-tree](./102-tree) file contains a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
 
-**Task-18**:The [103-commas](./103-commas) file contains  a command that lists all the files and directories of the current directory, separated by commas (`,`). Given that;
-- Directory names should end with a slash (`/`)
-- Files and directories starting with a dot (`.`) should be listed
-- The listing should be alpha ordered, except for the directories `.` and `..` which should be listed at the very beginning
-- Only digits and letters are used to sort; Digits should come first
-- You can assume that all the files we will test with will have at least one letter or one digit
-- The listing should end with a new line
