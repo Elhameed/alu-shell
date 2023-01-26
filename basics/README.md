@@ -4,19 +4,19 @@ In this project, I learnt about the shell, how to navigate through, how to use d
 
 ## Tasks :page_with_curl:
 
-**Task-0**: The [0-current_working_directory](./0-current_working_directory) file contains script that prints the absolute path name of the current working directory. `pwd`
+**Task-0**: The [0-current_working_directory](./0-current_working_directory) file contains script that prints the absolute path name of the current working directory.
 
-**Task-1**: The [1-listit](./1-listit) file contains the script that displays the content list of the working directory. `ls`
+**Task-1**: The [1-listit](./1-listit) file contains the script that displays the content list of the working directory.
 
-**Task-2**: The [2-bring_me_home](./2-bring_me_home) file contains a script that changes the working directory to the user’s home directory. `cd -`
+**Task-2**: The [2-bring_me_home](./2-bring_me_home) file contains a script that changes the working directory to the user’s home directory.
 
-**Task-3**: The [3-listfiles](./3-listfiles) contains a sript which displays current directory contents in a long format. `ls -l`
+**Task-3**: The [3-listfiles](./3-listfiles) contains a sript which displays current directory contents in a long format.
 
-**Task-4**: The [4-listmorefiles](./4-listmorefiles) contain a script to display current directory contents, including hidden files (starting with .) using long format. `ls -la`
+**Task-4**: The [4-listmorefiles](./4-listmorefiles) contain a script to display current directory contents, including hidden files (starting with .) using long format.
 
-**Task-5**: The [5-listfilesdigitonly](./5-listfilesdigitonly) file contains a script on how to display directory contents with user and group ids displayed numerically, showing hidden files in long format. `ls -n -la`
+**Task-5**: The [5-listfilesdigitonly](./5-listfilesdigitonly) file contains a script on how to display directory contents with user and group ids displayed numerically, showing hidden files in long format.
 
-**Task-6**: The [6-firstdirectory](./6-firstdirectory) file contains a script that creates a directory named `my_first_directory` in the `/tmp/` directory. `mkdir` `/tmp/betty` `/tmp/my_first_directory`
+**Task-6**: The [6-firstdirectory](./6-firstdirectory) file contains a script that creates a directory named `my_first_directory` in the `/tmp/` directory.
 
 **Task-7**: The [7-movethatfile](./7-movethatfile) file displays a script to move the file `betty` from `/tmp/` to `/tmp/my_first_directory`.
 
