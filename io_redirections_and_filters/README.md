@@ -1,52 +1,65 @@
-#  Shell, permissions 
+#  0x02. Shell, I/O Redirections and filters
 
-In this project, I learnt the functions of commands like `chmod`, `sudo`, `su`, `chown`, `chgrp` etc...
+In this project, I learnt about shell I/O redirections and also what command like `head`, `tail`, `find`, `wc`, `sort`, `uniq`, `grep`, `tr` do.
 
 ## Tasks :page_with_curl:
 
-**Task 0**: The [0-iam_betty](./0-iam_betty) file contains a script that switches the current user to the user `betty`
+**Task 0**: The [0-hello_world](./0-hello_world) file contains a script that prints “Hello, World”, followed by a new line to the standard output.
 
-**Task 1**: The [1-who_am_i](./1-who_am_i) file contains a script that prints the effective username of the current user.
+**Task 1**: The [1-confused_smiley](./1-confused_smiley) file contains a script that displays a confused smiley `"(Ôo)'`.
 
-**Task 2**: The [2-groups](./2-groups) file contains a script that prints all the groups the current user is part of.
+**Task 2**: The [2-hellofile](./2-hellofile) file contains a script that displays the content of the `/etc/passwd` file.
 
-**Task 3**: The [3-new_owner](./3-new_owner) file contains  a script that changes the owner of the file `hello` to the user `betty`
+**Task 3**: The [3-twofiles](./3-twofiles) file contains  a script that displays the content of `/etc/passwd` and `/etc/hosts`.
 
-**Task 4**: The [4-empty](./4-empty) file contains a script that creates an empty file called `hello`.
+**Task 4**: The [4-lastlines](./4-lastlines) file contains a script that displays the last 10 lines of `/etc/passwd`.
 
-**Task 5**: The [5-execute](./5-execute) file contains a script that adds execute permission to the owner of the file `hello`.
+**Task 5**: The [5-firstlines](./5-firstlines) file contains a script that displays the first 10 lines of `/etc/passwd`.
 
-**Task 6**: The [6-multiple_permissions](./6-multiple_permissions) file contains a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`.
+**Task 6**: The [6-third_line](./6-third_line) file contains a script that displays the third line of the file `iacta`.
 
-**Task 7**: The [7-everybody](./7-everybody) file contains a script that adds execution permission to the owner, the group owner and the other users, to the file `hello`
+**Task 7**: The [7-file](./7-file) file contains a shell script that creates a file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` containing the text `Best School` ending by a new line.
  
-**Task 8**: The [8-James_Bond](./8-James_Bond) file contains a script that sets the permission to the file `hello` as follows:
+**Task 8**: The `8-cwd_state` file contains a script that writes into the file `ls_cwd_content` the result of the command `ls -la`. 
 
-   * Owner: no permission at all
-   * Group: no permission at all
-   * Other users: all the permissions
+**Task 9**: The `9-duplicate_last_line` file contains a script that duplicates the last line of the file `iacta`
+ 
+**Task 10**: The `10-no_more_js` file contains a script that deletes all the regular files (not the directories) with a `.js` extension that are present in the current directory and all its subfolders.
 
-**Task 9**: The [9-John_Doe](./9-John_Doe) file contains  a script that sets the mode of the file `hello` to this:
+**Task 11**: The `11-directories` file contains a script that counts the number of directories and sub-directories in the current directory.
 
-   * `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
-   * The file `hello` will be in the working directory
+**Task 12**: The `12-newest_files` file contains a script that displays the 10 newest files in the current directory.
+With;
+-One file per line
+-Sorted from the newest to the oldest
 
-**Task 10**: The [10-mirror_permissions](./10-mirror_permissions) file contains a script that sets the mode of the file `hello` the same as `olleh’s` mode.
+**Task 13**: The `13-unique` file contains a script that takes a list of words as input and prints only words that appear exactly once.
+Input format: One line, one word
+Output format: One line, one word
+Words should be sorted
 
-   * The file `hello` will be in the working directory
-   * The file `olleh` will be in the working directory
+**Task 14**: The `14-findthatword` file contains a script that displays lines containing the pattern “root” from the file `/etc/passwd`.
 
-**Task 11**: The [11-directories_permissions](./11-directories_permissions) file contains a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+**Task 15**: The `15-countthatword` file contains a script that displays the number of lines that contain the pattern “bin” in the file `/etc/passwd`
 
-**Task 12**: The [12-directory_permissions](./12-directory_permissions) file contains a script that creates a directory called `my_dir` with permissions 751 in the working directory.
+**Task 16**: The `16-whatsnext` file contains a script that displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
 
-**Task 13**: The [13-change_group](./13-change_group) file contains a script that changes the group owner to `school` for the file `hello`
+**Task 17**: The `17-hidethisword` file contains a script that display all the lines in the file `/etc/passwd` that do not contain the pattern “bin”.
+ 
+**Task 18**: The `18-letteronly` file contains a script that displays all lines of the file `/etc/ssh/sshd_config` starting with a letter including capital letters as well
 
-**Task 14**: The [14-change_owner_and_group](./14-change_owner_and_group) file contains a script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory.
+**Task 19**: The `19-AZ` file contains a script that will replace all characters `A` and `c` from input to `Z` and `e` respectively.
 
-**Task 15**: The [15-symbolic_link_permissions](./15-symbolic_link_permissions) file contains a script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively.
+**Task 20**: The `20-hiago` file contains a script that removes all letters `c` and `C` from input.
 
-   * The file `_hello` is in the working directory
-   * The file `_hello` is a symbolic link
+**Task 21**: The `21-reverse` file contains a script that reverse its input.
 
-**Task 16**: The [16-if_only](./16-if_only) file contains a script that changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`.
+**Task 22**: The `22-users_and_homes` file contains a script that displays all users and their home directories, sorted by users based on the the `/etc/passwd` file
+ 
+**Task 23**: The `100-empty_casks` file contains a command that finds all empty files and directories in the current directory and all sub-directories...
+
+**Task 24**: The `101-gifs` file contains a script that lists all the files with a `.gif` extension in the current directory and all its sub-directories...
+
+**Task 25**: The `102-acrostic` file contains a script that decodes acrostics that use the first letter of each line.
+
+**Task 26**: The `103-the_biggest_fan` file contains a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests order by number of requests, most active host or IP at the top
