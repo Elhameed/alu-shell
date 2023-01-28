@@ -7,6 +7,7 @@ In this repo, you will find different programs written on Shell and how it works
 * [Shell, basics](basics)
 * [Shell, permissions](permissions)
 * [Shell, I/O Redirections and filters](io_redirections_and_filters)
+* [Shell, init files, variables and expansions](init_files_variables_and_expansions)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
