@@ -11,7 +11,7 @@ In this project, I learnt shell initialization files, expansions and variables. 
 
 ## Tasks :page_with_curl:
 
-**Task 0**: The [0-alias](./0-alias) file contains a script that creates an alias with the name `ls` and variable `rm *` .
+**Task 0**: The [0-alias](./0-alias) file contains a script that creates an alias with the name `ls` and variable `rm *`
 
 **Task 1**: The [1-who_am_i](./1-who_am_i) file contains a script that prints the effective username of the current user.
 
