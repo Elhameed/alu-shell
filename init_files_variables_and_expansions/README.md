@@ -1,12 +1,12 @@
 #  Shell, init files, variables and expansions 
 
-In this project, I learnt shell initialization files, expansions and variables. A few things i learnt are:
-- The purpose and contents of the shell initialization files /etc/profile and /etc/profile.d
-- The purpose and contents of the ~/.bashrc file
+In this project, I learnt shell initialization files, expansions and variables. A few things I learnt include:
+- The purpose and contents of the shell initialization files `/etc/profile` and `/etc/profile.d`
+- The purpose and contents of the `~/.bashrc` file
 - Differences between local and global variables and how to create, update and delete them
-- Roles of reserved variables HOME, PATH, PS1 and how to perform arithmetic operations in the shell
+- Roles of reserved variables `HOME`, `PATH`, `PS1` and how to perform arithmetic operations in the shell
 - How to create, list, and temporarily disable aliases in the shell
-- Differences between single and double quotes and how to use command substitution with $() and backticks
+- Differences between single and double quotes and how to use command substitution with `$()` and backticks
 - How to execute commands from a file in the current shell.
 
 ## Tasks :page_with_curl:
