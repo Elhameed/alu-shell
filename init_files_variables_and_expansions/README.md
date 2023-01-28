@@ -17,43 +17,41 @@ In this project, I learnt shell initialization files, expansions and variables. 
 
 **Task 2**: The [2-path](./2-path) file contains a script that Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 
-**Task 3**: The [3-paths](./3-paths) file contains  a script that counts the number of directories in the `PATH`
+**Task 3**: The [3-paths](./3-paths) file contains a script that counts the number of directories in the `PATH`
 
-**Task 4**: The [4-empty](./4-empty) file contains a script that creates an empty file called `hello`.
+**Task 4**: The [4-global_variables](./4-global_variables) file contains a script that lists environment variables.
 
-**Task 5**: The [5-execute](./5-execute) file contains a script that adds execute permission to the owner of the file `hello`.
+**Task 5**: The [5-local_variables](./5-local_variables) file contains a script that lists all local variables and environment variables, and functions.
 
-**Task 6**: The [6-multiple_permissions](./6-multiple_permissions) file contains a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file `hello`.
+**Task 6**: The [6-create_local_variable](./6-create_local_variable) file contains a script that creates a new local variable with the name `BEST` and value `School`
 
-**Task 7**: The [7-everybody](./7-everybody) file contains a script that adds execution permission to the owner, the group owner and the other users, to the file `hello`
+**Task 7**: The [7-create_global_variable](./7-create_global_variable) file contains reate a script that creates a new global variable with the name `BEST` and value `School`
  
-**Task 8**: The [8-James_Bond](./8-James_Bond) file contains a script that sets the permission to the file `hello` as follows:
+**Task 8**: The [8-true_knowledge](./8-true_knowledge) file contains a script that prints the result of the addition of 128 with the value stored in the environment variable `TRUEKNOWLEDGE`, followed by a new line.
 
-   * Owner: no permission at all
-   * Group: no permission at all
-   * Other users: all the permissions
+**Task 9**: The [9-divide_and_rule](./9-divide_and_rule) file contains a script that prints the result of `POWER` divided by `DIVIDE`, followed by a new line.
 
-**Task 9**: The [9-John_Doe](./9-John_Doe) file contains  a script that sets the mode of the file `hello` to this:
+   * `POWER` and `DIVIDE` are environment variables
 
-   * `-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello`
-   * The file `hello` will be in the working directory
+**Task 10**: The [10-love_exponent_breath](./10-love_exponent_breath) file contains a script that displays the result of `BREATH` to the power `LOVE`
 
-**Task 10**: The [10-mirror_permissions](./10-mirror_permissions) file contains a script that sets the mode of the file `hello` the same as `olleh’s` mode.
+   * `BREATH` and `LOVE` are environment variables
 
-   * The file `hello` will be in the working directory
-   * The file `olleh` will be in the working directory
+**Task 11**: The [11-binary_to_decimal](./11-binary_to_decimal) file contains a script that converts a number from base 2 to base 10.
 
-**Task 11**: The [11-directories_permissions](./11-directories_permissions) file contains a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
+**Task 12**: The [12-combinations](./12-directory_permissions) file contains a script that prints all possible combinations of two letters, except `oo`
+  * Letters are lower cases, from `a` to `z`
+  * One combination per line
+  * The output should be alpha ordered, starting with `aa`
+  * Do not print `oo`
+  * Your script file should contain maximum 64 characters
 
-**Task 12**: The [12-directory_permissions](./12-directory_permissions) file contains a script that creates a directory called `my_dir` with permissions 751 in the working directory.
+**Task 13**: The [13-print_float](./13-print_float) file contains a script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable `NUM`
 
-**Task 13**: The [13-change_group](./13-change_group) file contains a script that changes the group owner to `school` for the file `hello`
+**Task 14**: The [14-decimal_to_hexadecimal](./14-decimal_to_hexadecimal) file contains a script that converts a number from base 10 to base 16.
 
-**Task 14**: The [14-change_owner_and_group](./14-change_owner_and_group) file contains a script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory.
+**Task 15**: The [15-rot13](./15-rot13) file contains a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 
-**Task 15**: The [15-symbolic_link_permissions](./15-symbolic_link_permissions) file contains a script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively.
+**Task 16**: The [16-odd](./16-odd) file contains a script that prints every other line from the input, starting with the first line.
 
-   * The file `_hello` is in the working directory
-   * The file `_hello` is a symbolic link
-
-**Task 16**: The [16-if_only](./16-if_only) file contains a script that changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`.
+**Task 17**: The [17-water_and_stir](./17-water_and_stir) file contains a shell script that adds the two numbers stored in the environment variables `WATER` and `STIR` and prints the result.
