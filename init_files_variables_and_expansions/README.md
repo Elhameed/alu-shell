@@ -17,7 +17,7 @@ In this project, I learnt shell initialization files, expansions and variables. 
 
 **Task 2**: The [2-path](./2-path) file contains a script that Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 
-**Task 3**: The [3-new_owner](./3-new_owner) file contains  a script that changes the owner of the file `hello` to the user `betty`
+**Task 3**: The [3-paths](./3-paths) file contains  a script that counts the number of directories in the `PATH`
 
 **Task 4**: The [4-empty](./4-empty) file contains a script that creates an empty file called `hello`.
 
