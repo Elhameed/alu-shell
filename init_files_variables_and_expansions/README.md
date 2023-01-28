@@ -13,9 +13,9 @@ In this project, I learnt shell initialization files, expansions and variables. 
 
 **Task 0**: The [0-alias](./0-alias) file contains a script that creates an alias with the name `ls` and variable `rm *`
 
-**Task 1**: The [1-who_am_i](./1-who_am_i) file contains a script that prints the effective username of the current user.
+**Task 1**: The [1-hello_you](./1-hello_you) file contains a script that prints `hello user`, where user is the current Linux user.
 
-**Task 2**: The [2-groups](./2-groups) file contains a script that prints all the groups the current user is part of.
+**Task 2**: The [2-path](./2-path) file contains a script that Add `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program.
 
 **Task 3**: The [3-new_owner](./3-new_owner) file contains  a script that changes the owner of the file `hello` to the user `betty`
 
