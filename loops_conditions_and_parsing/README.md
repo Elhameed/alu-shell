@@ -29,7 +29,7 @@ How to use `if`, `else`, `elif` and `case` condition statements and how to use t
 
 **Task-7**: The [8-for_ls](./8-for_ls) file contains a Bash script that displays the content of the current directory in a list format.
 
-**Task-8**: The [8-concat_edges.py](./8-concat_edges.py) file contains a Bash script that gives you information about the school file.
+**Task-8**: The [9-to_file_or_not_to_file](./9-to_file_or_not_to_file) file contains a Bash script that gives you information about the school file.
 - Requirements:
   - You must use `if` and, `else` (`case` is forbidden)
   - Your Bash script should check if the file exists and print:
@@ -41,19 +41,18 @@ How to use `if`, `else`, `elif` and `case` condition statements and how to use t
     - if the file is a regular file: `school is a regular file`
     - if the file is not a regular file: (nothing)
 
-**Task-9**: The [9-easter_egg.py](./9-easter_egg.py) file contains a script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+**Task-9**: The [10-fizzbuzz](./10-fizzbuzz) file contains a Bash script that displays numbers from 1 to 100.
+- Requirements:
+  - Displays FizzBuzz when the number is a multiple of 3 and 5
+  - Displays Fizz when the number is multiple of 3
+  - Displays Buzz when the number is a multiple of 5
+  - Otherwise, displays the number
+  - In a list format
 
-**Task-10**: The [100-write.py](./100-write.py) file contains a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line without using the `print()` function.
+**Task-10**: The [11-read_and_cut](./11-read_and_cut) file contains a Bash script that displays the content of the file `/etc/passwd`. The script should only display username, user id and Home directory path for the user.
 
-**Task-11**: The [101-compile](./101-compile) file contains a script that compiles a Python script file.
+**Task-11**: The [12-tell_the_story_of_passwd](./12-tell_the_story_of_passwd) file contains a Bash script that displays the content of the file `/etc/passwd`, using the `while loop` + IFS.
 
-**Task-12**: The [102-magic_calculation.py](./102-magic_calculation.py) is a script that contains the Python function `def magic_calculation(a, b)`: that does exactly the same as the following Python bytecode:
+**Task-12**: The [13-lets_parse_apache_logs](./13-lets_parse_apache_logs) is a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
 
-```sh
-	 3          0 LOAD_CONST               1 (98)
-              	    3 LOAD_FAST                0 (a)
-                    6 LOAD_FAST                1 (b)
-                    9 BINARY_POWER
-                   10 BINARY_ADD
-                   11 RETURN_VALUE
-```
+**Task-13**: The [14-dig_the-data](./14-dig_the-data) is a Bash script that groups visitors by IP and HTTP status code, and displays this data.
