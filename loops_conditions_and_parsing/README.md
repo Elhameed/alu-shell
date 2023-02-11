@@ -1,6 +1,6 @@
 #  Shell, loops, conditions and parsing
 
-In this directory, i learnt about the advantage of using `#!/usr/bin/env bash` over `#!/bin/bash`. I also learnt how to use the `while`, `until` and `for` loops.
+In this directory, I learnt about the advantage of using `#!/usr/bin/env bash` over `#!/bin/bash`. I also learnt how to use the `while`, `until` and `for` loops.
 How to use `if`, `else`, `elif` and `case` condition statements and how to use the `cut` command
 
 ## Tasks :page_with_curl:
