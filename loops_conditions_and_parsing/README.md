@@ -30,16 +30,16 @@ How to use `if`, `else`, `elif` and `case` condition statements and how to use t
 **Task-7**: The [8-for_ls](./8-for_ls) file contains a Bash script that displays the content of the current directory in a list format.
 
 **Task-8**: The [8-concat_edges.py](./8-concat_edges.py) file contains a Bash script that gives you information about the school file.
-- Requirements:
-  - You must use `if` and, `else` (`case` is forbidden)
-  -Your Bash script should check if the file exists and print:
-    -if the file exists: `school file exists`
-    -if the file does not exist: `school file does not exist`
-   -If the file exists, print:
-    -if the file is empty: `school file is empty`
-    -if the file is not empty: `school file is not empty`
-    -if the file is a regular file: `school is a regular file`
-    -if the file is not a regular file: (nothing)
+Requirements:
+ - You must use `if` and, `else` (`case` is forbidden)
+ -Your Bash script should check if the file exists and print:
+   -if the file exists: `school file exists`
+   -if the file does not exist: `school file does not exist`
+  -If the file exists, print:
+   -if the file is empty: `school file is empty`
+   -if the file is not empty: `school file is not empty`
+   -if the file is a regular file: `school is a regular file`
+   -if the file is not a regular file: (nothing)
 
 **Task-9**: The [9-easter_egg.py](./9-easter_egg.py) file contains a script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 
