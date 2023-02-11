@@ -7,9 +7,9 @@ How to use `if`, `else`, `elif` and `case` condition statements and how to use t
 
 **Task-0**: The [1-for_best_school](./1-for_best_school) file contains a Bash script that displays `Best School` 10 times using `for` loop.
 
-**Task-1**: The [2-while_best_school](./2-while_best_school) file contains a Bash script that displays Best School 10 times using `while` loop.
+**Task-1**: The [2-while_best_school](./2-while_best_school) file contains a Bash script that displays `Best School` 10 times using `while` loop.
 
-**Task-2**: The [3-until_best_school](./3-until_best_school) file contains a Bash script that displays Best School 10 times using `until` loop.
+**Task-2**: The [3-until_best_school](./3-until_best_school) file contains a Bash script that displays `Best School` 10 times using `until` loop.
 
 **Task-3**: The [4-if_9_say_hi](./4-if_9_say_hi) contains a Bash script that displays `Best School` 10 times, but for the 9th iteration, displays `Best School` and then `Hi` on a new line using `while` loop.
 
