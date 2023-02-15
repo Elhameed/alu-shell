@@ -34,9 +34,9 @@ In this project, I learnt about the shell, how to navigate through, how to use d
 
 **Task-14**: The [14-copy_html](./14-copy_html) file contains a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
-**Task-15**: The [100-lets_move](./100-lets_move) file contains a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
+**Task-15**: The [15-lets_move](./15-lets_move) file contains a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
 
-**Task-16**: The [101-clean_emacs](./101-clean_emacs) file contains a script that deletes all files in the current working directory that end with the character `~`.
+**Task-16**: The [16-clean_emacs](./16-clean_emacs) file contains a script that deletes all files in the current working directory that end with the character `~`.
 
-**Task-17**: The [102-tree](./102-tree) file contains a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+**Task-17**: The [17-tree](./17-tree) file contains a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
 
