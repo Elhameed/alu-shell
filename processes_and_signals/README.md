@@ -38,7 +38,7 @@ In this directory, I was able to understand the fllowing:
 - Displays `Y U no love me?!` when receiving a SIGINT signal
 - Deletes the file `/var/run/myscript.pid` and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-**Task-10**: The [11-manage_my_process](./11-manage_my_process) file contains Bash (init) script `11-manage_my_process` that manages `manage_my_process`.
-Alternatively, [manage_my_process](./manage_my_process) contains a Bash script that:
+**Task-10**: The [11-manage_my_process](./11-manage_my_process) file is a Bash script that manages [manage_my_process](./manage_my_process).
+[manage_my_process](./manage_my_process) contains a Bash script that:
 - Indefinitely writes `I am alive!` to the file `/tmp/my_process`
 - In between every `I am alive!` message, the program should pause for 2 seconds
