@@ -14,4 +14,4 @@ In this repo, you will find different programs written on Shell and how it works
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
 ## Author 
-* [Abdulhameed Teniola Ajani](https://twitter.com/teni0la_ajani)
+* [Abdulhameed Teniola Ajani](https://twitter.com/teniola_ajani)
